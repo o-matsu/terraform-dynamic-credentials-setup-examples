@@ -15,6 +15,7 @@ variable "tfc_hostname" {
 
 variable "tfc_organization_name" {
   type        = string
+  default     = "pine-app-studio"
   description = "The name of your Terraform Cloud organization"
 }
 
@@ -32,6 +33,7 @@ variable "tfc_workspace_name" {
 
 variable "gcp_project_id" {
   type        = string
+  default     = "matsu-gtd"
   description = "The ID for your GCP project"
 }
 

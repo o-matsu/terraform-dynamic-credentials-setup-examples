@@ -31,7 +31,7 @@ resource "google_project_service" "services" {
 # https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/iam_workload_identity_pool
 resource "google_iam_workload_identity_pool" "tfc_pool" {
   provider                  = google-beta
-  workload_identity_pool_id = "my-tfc-pool"
+  workload_identity_pool_id = "tfc-pool"
 }
 
 # Creates an identity pool provider which uses an attribute condition
